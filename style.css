@@ -1,0 +1,9 @@
+body {
+    margin: auto;
+    border: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    width: 100%;
+}
