@@ -1,53 +1,58 @@
-.section1 {
-    background-color: #1f2937;
-    border: solid red;
+body{
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo-text {
+.hero-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.hero-text, a {
+.hero-sec-link,
+.signupbtn {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-second-text {
-    font-size: 24px;
-    color: #F9FAF8;
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    }
+
+img {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .signupbtn {
-    background-color: #3882f6;
-}
-
-ul {
-    display: flex;
-    gap: 12px;
-    list-style: none;
-    border: solid red;
-}
-
-li.logo {
-    margin-right: auto;
-    border: solid red;
+    background-color: #3882F6;
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    border: solid red;
-    flex-wrap: wrap;
-}
-
-.hero.img-right {
-    margin-left: auto;
-    border: solid red;
+    background-color: #1f2937;
 }
