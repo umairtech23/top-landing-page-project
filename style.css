@@ -56,3 +56,59 @@ img {
 .hero {
     background-color: #1f2937;
 }
+
+
+
+.section2 {
+    border: 6px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2head {
+    border: 6px solid red;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.section2con {
+    border: 6px solid red;
+    display: flex;
+    width: 900px;
+    flex: 1;
+}
+
+img {
+    border: 6px solid red;
+    border-radius: 10%;
+}
+
+
+.section3 {
+    border: 6px solid red;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    border: 6px solid red;
+    width: 700px;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+}
+.quotefrom {
+    border: 6px solid red;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
