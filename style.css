@@ -112,3 +112,51 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+.section4 {
+    border: 6px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    margin: 50px;
+    background-color: #3882F6;
+    gap: 10px;
+}
+
+.container4 {
+    border: 6px solid red; 
+}
+
+.signupbtn4 {
+    background-color: #3882F6;
+    height: 30px;
+    color: #f9faf8;
+    border-color: #f9faf8;
+}
+
+.signuptext1, .signuptext2 {
+    margin: 0;
+}
+
+.signuptext1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.signuptext2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
+}
